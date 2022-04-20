@@ -36,3 +36,12 @@ main{
     font-size: 5rem;
     letter-spacing: 2px;
 }
+@media screen and (max-width: 500px) {
+    .hour,
+    .minute,
+    .second {
+        width: 100px;
+        height: 100px;
+        font-size: 3.5rem;
+    }
+}
